@@ -1,11 +1,22 @@
 {
-  "name": "global",
+  "name": "vue-global",
+  "description": "vue 项目公共方法开发",
   "version": "0.1.0",
-  "private": true,
+  "main": "lib/global.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name global --dest lib src/main.js"
+  },
+  "keywords": [
+    "global",
+    "vue",
+    "vuejs"
+  ],
+  "author": {
+    "name": "chenxu",
+    "email": "843313654@qq.com"
   },
   "dependencies": {
     "vue": "^2.6.6"
